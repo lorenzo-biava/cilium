@@ -70,6 +70,7 @@ var requiredGVKs = []schema.GroupVersionKind{
 	gatewayv1.SchemeGroupVersion.WithKind(helpers.HTTPRouteKind),
 	gatewayv1.SchemeGroupVersion.WithKind(helpers.GRPCRouteKind),
 	gatewayv1beta1.SchemeGroupVersion.WithKind(helpers.ReferenceGrantKind),
+	gatewayv1beta1.SchemeGroupVersion.WithKind(helpers.BackendTLSPolicyKind),
 }
 
 var optionalGVKs = []schema.GroupVersionKind{
